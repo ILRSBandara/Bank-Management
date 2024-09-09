@@ -1,0 +1,11 @@
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\bin\Debug\BankManagemant.exe.config
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\bin\Debug\BankManagemant.exe
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\bin\Debug\BankManagemant.pdb
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.csproj.AssemblyReference.cache
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Properties.Resources.resources
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.csproj.GenerateResource.cache
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.csproj.CoreCompileInputs.cache
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.exe
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.pdb
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Form2.resources
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.UserControl1.resources
