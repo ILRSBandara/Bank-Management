@@ -54,6 +54,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="UserControl1.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -66,13 +71,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,31 +89,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download %281%29.jpeg" />
+    <None Include="Resources\e814404504f06eb047b788ec81d115fa.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images.jpeg" />
+    <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images %281%29.jpeg" />
+    <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc1.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\images %284%29.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\0d5cc7f94f5d2c64a7e67d26eaa03d1d.jpg" />
+    <None Include="Resources\images.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\e814404504f06eb047b788ec81d115fa.jpg" />
+    <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc2.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\a29d290535c8a5fd55f67631c7e454f1.jpg" />
+    <None Include="Resources\download %281%29.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\c2c2df048b8da3ff9aff081ce01a01a9.jpg" />
+    <None Include="Resources\download %281%291.jpeg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download %283%29.jpeg" />
+    <None Include="Resources\download %281%292.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%293.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

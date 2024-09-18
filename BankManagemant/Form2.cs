@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace BankManagemant
 {
@@ -38,6 +39,36 @@ namespace BankManagemant
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            string username = txtUserName.Text;
+            string password = txtPassword.Text;
+            SqlCommand cmd = new SqlCommand("select Username,Password from logintab where Username='" + txtUserName.Text + "'and Password='" + txtPassword.Text + "'", con);
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            if (dt.Rows.Count > 0)
+            {
+                MessageBox.Show("Login Success");
+            }
+            else
+            {
+                MessageBox.Show("Login Failed. Please Check Username and Password");
+            }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
         {
 
         }
