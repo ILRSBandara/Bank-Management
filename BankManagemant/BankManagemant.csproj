@@ -53,7 +53,6 @@
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -75,21 +74,12 @@
     <EmbeddedResource Include="UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Settings.settings</DependentUpon>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\e814404504f06eb047b788ec81d115fa.jpg" />
+    <None Include="Resources\images.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc.jpg" />
@@ -98,25 +88,7 @@
     <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\images %284%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\images.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%29.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%291.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%292.jpeg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\download %281%293.jpeg" />
+    <None Include="Resources\images1.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

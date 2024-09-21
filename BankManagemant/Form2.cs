@@ -66,9 +66,15 @@ namespace BankManagemant
             {
                 MessageBox.Show("Login Failed. Please Check Username and Password");
             }
+            con.Close();
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtUsername_TextChanged_1(object sender, EventArgs e)
         {
 
         }

@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.txtUserName = new System.Windows.Forms.TextBox();
             this.btnLogin = new System.Windows.Forms.Button();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.txtUserName = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -45,9 +45,9 @@
             this.panel1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.panel1.Controls.Add(this.txtUserName);
             this.panel1.Controls.Add(this.btnLogin);
             this.panel1.Controls.Add(this.txtPassword);
-            this.panel1.Controls.Add(this.txtUserName);
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.panel2);
@@ -56,6 +56,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(380, 265);
             this.panel1.TabIndex = 0;
+            // 
+            // txtUserName
+            // 
+            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtUserName.Location = new System.Drawing.Point(113, 100);
+            this.txtUserName.Name = "txtUserName";
+            this.txtUserName.Size = new System.Drawing.Size(208, 29);
+            this.txtUserName.TabIndex = 6;
             // 
             // btnLogin
             // 
@@ -72,22 +80,12 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(112, 134);
+            this.txtPassword.Location = new System.Drawing.Point(112, 140);
             this.txtPassword.Margin = new System.Windows.Forms.Padding(2);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(209, 29);
             this.txtPassword.TabIndex = 4;
             this.txtPassword.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
-            // 
-            // txtUserName
-            // 
-            this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.14286F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.Location = new System.Drawing.Point(112, 94);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(2);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(209, 29);
-            this.txtUserName.TabIndex = 3;
-            this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
             // label3
             // 
@@ -142,11 +140,10 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::BankManagemant.Properties.Resources.dcd6c0c04c7f9c72778bb7066d3d22cc;
+            this.BackgroundImage = global::BankManagemant.Properties.Resources.images;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(799, 446);
             this.Controls.Add(this.panel1);
-            this.Enabled = false;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form2";
             this.Text = "Login";
@@ -168,7 +165,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.TextBox txtUserName;
     }
 }
