@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace BankManagemant
 {
@@ -15,6 +16,32 @@ namespace BankManagemant
         public Customer()
         {
             InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("insert into customers values(@customer_id,@customer_name,@phone,@email,@address)", con);
+            cnn.Parameters.AddWithValue("@Customer_ID", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@Customer_Name", textBox2.Text);
+            cnn.Parameters.AddWithValue("@Phone", textBox3.Text);
+            cnn.Parameters.AddWithValue("@Email", textBox4.Text);
+            cnn.Parameters.AddWithValue("@Address", textBox5.Text);
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Record Saved Successfully!");
+
         }
     }
 }
