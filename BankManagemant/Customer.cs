@@ -54,5 +54,21 @@ namespace BankManagemant
             da.Fill(table);
             dataGridView1.DataSource = table;
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("update customers set customer_name=@customer_name,phone=@phone,email=@email,address=@address where customer_id=@customer_id", con);
+            cnn.Parameters.AddWithValue("@Customer_ID", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@Customer_Name", textBox2.Text);
+            cnn.Parameters.AddWithValue("@Phone", textBox3.Text);
+            cnn.Parameters.AddWithValue("@Email", textBox4.Text);
+            cnn.Parameters.AddWithValue("@Address", textBox5.Text);
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Record Update Successfully!");
+
+        }
     }
 }
