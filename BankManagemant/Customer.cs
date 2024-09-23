@@ -43,5 +43,16 @@ namespace BankManagemant
             MessageBox.Show("Record Saved Successfully!");
 
         }
+
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from customers", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
     }
 }
