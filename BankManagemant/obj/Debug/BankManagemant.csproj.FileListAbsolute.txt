@@ -10,3 +10,4 @@ C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.UserControl1.resources
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Properties.Resources.resources
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Main.resources
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Customer.resources
