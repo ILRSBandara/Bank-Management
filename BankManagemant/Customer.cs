@@ -70,5 +70,16 @@ namespace BankManagemant
             MessageBox.Show("Record Update Successfully!");
 
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("delete customers where customer_id=@customer_id", con);
+            cnn.Parameters.AddWithValue("@Customer_ID", int.Parse(textBox1.Text));
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Record Deleted Successfully!");
+        }
     }
 }
