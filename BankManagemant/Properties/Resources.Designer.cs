@@ -133,6 +133,16 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download__5_ {
+            get {
+                object obj = ResourceManager.GetObject("download (5)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
@@ -156,6 +166,17 @@ namespace BankManagemant.Properties {
         internal static System.Drawing.Bitmap images__4_ {
             get {
                 object obj = ResourceManager.GetObject("images (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_transparent_financial_accounting_finance_bank_financial_services_bank_electronics_service_loan_thumbnail {
+            get {
+                object obj = ResourceManager.GetObject("png-transparent-financial-accounting-finance-bank-financial-services-bank-electro" +
+                        "nics-service-loan-thumbnail", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
