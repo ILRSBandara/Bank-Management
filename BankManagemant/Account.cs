@@ -101,7 +101,15 @@ namespace BankManagemant
 
         private void btnSearch_Click(object sender, EventArgs e)
         {
-
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from accounts where accounts where customer_name=@customer_name", con);
+            cnn.Parameters.AddWithValue("@Customer_Name", textBox4.Text);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            con.Close();
+            dataGridView1.DataSource = table;
         }
     }
 }
