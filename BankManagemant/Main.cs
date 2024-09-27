@@ -29,7 +29,8 @@ namespace BankManagemant
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Account at = new Account();
+            at.Show();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
