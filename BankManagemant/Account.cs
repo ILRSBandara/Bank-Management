@@ -23,7 +23,7 @@ namespace BankManagemant
             SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
             con.Open();
             SqlCommand cnn = new SqlCommand("insert into accounts values(@account_id,@account_type,@balance,@date_opened,@customer_name)", con);
-            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox6.Text));
             cnn.Parameters.AddWithValue("@Account_Type", textBox2.Text);
             cnn.Parameters.AddWithValue("@Balance", textBox3.Text);
             cnn.Parameters.AddWithValue("@Date_Opened", dateTimePicker1.Value);
