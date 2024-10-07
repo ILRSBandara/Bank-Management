@@ -103,7 +103,7 @@ namespace BankManagemant
         {
             SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
             con.Open();
-            SqlCommand cnn = new SqlCommand("select * from accounts where accounts where customer_name=@customer_name", con);
+            SqlCommand cnn = new SqlCommand("select * from accounts where customer_name=@customer_name", con);
             cnn.Parameters.AddWithValue("@Customer_Name", textBox4.Text);
             SqlDataAdapter da = new SqlDataAdapter(cnn);
             DataTable table = new DataTable();
