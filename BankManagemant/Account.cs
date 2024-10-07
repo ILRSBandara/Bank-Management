@@ -67,7 +67,7 @@ namespace BankManagemant
             SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
             con.Open();
             SqlCommand cnn = new SqlCommand("update accounts set account_type=@account_type,balance=@balance,date_opened=@date_opened,customer_name=@customer_name where account account_id=@account_id", con);
-            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox6.Text));
             cnn.Parameters.AddWithValue("@Account_Type", textBox2.Text);
             cnn.Parameters.AddWithValue("@Balance", textBox3.Text);
             cnn.Parameters.AddWithValue("@Date_Opened", dateTimePicker1.Value);
@@ -81,8 +81,8 @@ namespace BankManagemant
         {
             SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
             con.Open();
-            SqlCommand cnn = new SqlCommand("delete accounts where account_id=@account_id ", con);
-            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox1.Text));
+            SqlCommand cnn = new SqlCommand("delete accounts where account_id=@account_id", con);
+            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox6.Text));
             cnn.ExecuteNonQuery();
             con.Close();
             MessageBox.Show("Record Deleted Successfully!");
