@@ -12,3 +12,4 @@ C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Main.resources
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Customer.resources
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Account.resources
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Transaction.resources
