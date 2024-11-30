@@ -67,5 +67,42 @@ namespace BankManagemant
             da.Fill(table);
             dataGridView1.DataSource = table;
         }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("update transactions set transaction_type=@transaction_type,amount=@amount,transaction_date=@transaction_date,account_id=@account_id where tid=@tid", con);
+            cnn.Parameters.AddWithValue("@TID", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@Transaction_Type", textBox2.Text);
+            cnn.Parameters.AddWithValue("@Amount", int.Parse(textBox1.Text));
+            cnn.Parameters.AddWithValue("@Transaction_Date", dateTimePicker2.Value);
+            cnn.Parameters.AddWithValue("@Account_ID", int.Parse(textBox5.Text));
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Record Updated Successfully!");
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("delete transaction where tid=@tid", con);
+            cnn.Parameters.AddWithValue("@TID", int.Parse(textBox1.Text));
+            cnn.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show("Record Deleted Successfully!");
+        }
+
+        private void Transaction_Load(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cnn = new SqlCommand("select * from transactions", con);
+            SqlDataAdapter da = new SqlDataAdapter(cnn);
+            DataTable table = new DataTable();
+            da.Fill(table);
+            dataGridView1.DataSource = table;
+        }
     }
 }

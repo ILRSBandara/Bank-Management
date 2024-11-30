@@ -43,5 +43,11 @@ namespace BankManagemant
             Customer cr = new Customer();
             cr.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Transaction tn = new Transaction();
+            tn.Show();
+        }
     }
 }
