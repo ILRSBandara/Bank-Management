@@ -73,6 +73,16 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _193cf1f198a235c0a790be9e2e0876f7 {
+            get {
+                object obj = ResourceManager.GetObject("193cf1f198a235c0a790be9e2e0876f7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _3dc168495b4e1eaf1c7ecfd017ff29c7 {
             get {
                 object obj = ResourceManager.GetObject("3dc168495b4e1eaf1c7ecfd017ff29c7", resourceCulture);
@@ -156,6 +166,16 @@ namespace BankManagemant.Properties {
         internal static System.Drawing.Bitmap download1 {
             get {
                 object obj = ResourceManager.GetObject("download1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download2 {
+            get {
+                object obj = ResourceManager.GetObject("download2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
