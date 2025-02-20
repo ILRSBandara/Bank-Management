@@ -49,5 +49,11 @@ namespace BankManagemant
             Transaction tn = new Transaction();
             tn.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Loan ln = new Loan();
+            ln.Show();
+        }
     }
 }
