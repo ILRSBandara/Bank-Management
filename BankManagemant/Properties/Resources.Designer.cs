@@ -273,6 +273,16 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lovepik_electronic_science_and_technology_creative_background_image_401692442 {
+            get {
+                object obj = ResourceManager.GetObject("lovepik-electronic-science-and-technology-creative-background-image_401692442", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_financial_accounting_finance_bank_financial_services_bank_electronics_service_loan_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-financial-accounting-finance-bank-financial-services-bank-electro" +

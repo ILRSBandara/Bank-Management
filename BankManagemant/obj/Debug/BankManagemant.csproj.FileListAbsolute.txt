@@ -15,3 +15,4 @@ C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Transaction.resources
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Loan.resources
 C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Employee.resources
+C:\Users\RASHI\Desktop\Projects\BankManagement\BankManagement\BankManagemant\obj\Debug\BankManagemant.Dashboard.resources
