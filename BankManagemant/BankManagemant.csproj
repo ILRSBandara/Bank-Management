@@ -58,6 +58,12 @@
     <Compile Include="Customer.Designer.cs">
       <DependentUpon>Customer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer.resx">
       <DependentUpon>Customer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
@@ -176,6 +185,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\193cf1f198a235c0a790be9e2e0876f7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bfa738db8bae49064fa2bebef4390568.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%291.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f47bcbd6b811499534e38b1606d1d442.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bfa738db8bae49064fa2bebef43905681.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %285%29.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
