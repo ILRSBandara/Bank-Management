@@ -55,5 +55,11 @@ namespace BankManagemant
             Loan ln = new Loan();
             ln.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Employee em = new Employee();
+            em.Show();
+        }
     }
 }
