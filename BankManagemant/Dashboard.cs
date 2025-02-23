@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -20,6 +21,50 @@ namespace BankManagemant
         private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void display()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cmm = new SqlCommand("SELECT COUNT(*) FROM emptab", con);
+            Int32 count = Convert.ToInt32(cmm.ExecuteScalar());
+            if (count > 0)
+            {
+                lblCount1.Text = count.ToString(count.ToString());
+            }
+            else
+            {
+                lblCount1.Text = "0";
+            }
+            con.Close();
+        }
+
+        private void display1()
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
+            con.Open();
+            SqlCommand cmm = new SqlCommand("SELECT COUNT(*) FROM emptab", con);
+            Int32 count = Convert.ToInt32(cmm.ExecuteScalar());
+            if (count > 0)
+            {
+                lblCount1.Text = count.ToString(count.ToString());
+            }
+            else
+            {
+                lblCount1.Text = "0";
+            }
+            con.Close();
         }
     }
 }
