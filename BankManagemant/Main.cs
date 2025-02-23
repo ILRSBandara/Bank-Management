@@ -61,5 +61,11 @@ namespace BankManagemant
             Employee em = new Employee();
             em.Show();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Dashboard dd = new Dashboard();
+            dd.Show();
+        }
     }
 }

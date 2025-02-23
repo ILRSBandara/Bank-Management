@@ -56,11 +56,11 @@ namespace BankManagemant
         {
             SqlConnection con = new SqlConnection(@"Data Source=RASH\RASH;Initial Catalog=BankDB;Integrated Security=True;Encrypt=False");
             con.Open();
-            SqlCommand cmm = new SqlCommand("SELECT COUNT(*) FROM employees", con);
+            SqlCommand cmm = new SqlCommand("SELECT COUNT(*) FROM employee", con);
             Int32 count = Convert.ToInt32(cmm.ExecuteScalar());
             if (count > 0)
             {
-                lblCount2.Text = count.ToString(count.ToString());
+                lblCount2.Text = count.ToString();
             }
             else
             {
