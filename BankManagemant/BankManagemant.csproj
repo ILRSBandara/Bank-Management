@@ -216,5 +216,23 @@
   <ItemGroup>
     <None Include="Resources\lovepik-electronic-science-and-technology-creative-background-image_401692442.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dcd6c0c04c7f9c72778bb7066d3d22cc2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e623b09f85044543098aed0ba27e38e9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\e623b09f85044543098aed0ba27e38e91.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lovepik-electronic-science-and-technology-creative-background-image_4016924421.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %284%292.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

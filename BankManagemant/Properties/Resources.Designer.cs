@@ -133,6 +133,16 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap dcd6c0c04c7f9c72778bb7066d3d22cc1 {
+            get {
+                object obj = ResourceManager.GetObject("dcd6c0c04c7f9c72778bb7066d3d22cc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
@@ -213,6 +223,26 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap e623b09f85044543098aed0ba27e38e9 {
+            get {
+                object obj = ResourceManager.GetObject("e623b09f85044543098aed0ba27e38e9", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap e623b09f85044543098aed0ba27e38e91 {
+            get {
+                object obj = ResourceManager.GetObject("e623b09f85044543098aed0ba27e38e91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap f47bcbd6b811499534e38b1606d1d442 {
             get {
                 object obj = ResourceManager.GetObject("f47bcbd6b811499534e38b1606d1d442", resourceCulture);
@@ -253,6 +283,16 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap images__4_1 {
+            get {
+                object obj = ResourceManager.GetObject("images (4)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap images__5_ {
             get {
                 object obj = ResourceManager.GetObject("images (5)", resourceCulture);
@@ -283,10 +323,30 @@ namespace BankManagemant.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap lovepik_electronic_science_and_technology_creative_background_image_4016924421 {
+            get {
+                object obj = ResourceManager.GetObject("lovepik-electronic-science-and-technology-creative-background-image_4016924421", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap png_transparent_financial_accounting_finance_bank_financial_services_bank_electronics_service_loan_thumbnail {
             get {
                 object obj = ResourceManager.GetObject("png-transparent-financial-accounting-finance-bank-financial-services-bank-electro" +
                         "nics-service-loan-thumbnail", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap unnamed {
+            get {
+                object obj = ResourceManager.GetObject("unnamed", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
