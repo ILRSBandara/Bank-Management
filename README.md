@@ -4,6 +4,8 @@ I Developed a comprehensive Bank Management System using C# and .NET framework, 
 
 ## Key Features📝
 
+✅ Secure user authentication.
+✅ Intuitive and user-friendly UI/UX design.
 
 ## Available Services📹
 
