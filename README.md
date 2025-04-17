@@ -22,7 +22,15 @@ I Developed a comprehensive Bank Management System using C# and .NET framework, 
 - **MS SQL Server 🔔**
 
 
+
+
 <div>
- <img width=350 src="SS/Screenshot (115).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img width=350 src="SS/Screenshot (116).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img width=450 src="SS/Screenshot (115).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img width=450 src="SS/Screenshot (116).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img width=450 src="SS/Screenshot (117).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img width=450 src="SS/Screenshot (118).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img width=450 src="SS/Screenshot (119).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img width=450 src="SS/Screenshot (120).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <img width=450 src="SS/Screenshot (121).png"/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ 
 </div>
